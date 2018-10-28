@@ -5,13 +5,13 @@ provider "aws" {
 
 module "bucket-1" {
   #Replace the URL with the link of S3 module
-  source = "s3::https://s3-eu-west-1.amazonaws.com/examplecorp-terraform-modules/vpc.zip"
+  source = "s3::https://s3.amazonaws.com/my-terraform-modules/s3-module.zip"
 
   s3-bucket-name = "my-bucket-no-1"
 }
 
 module "bucket-2" {
-  source = "s3::https://s3-eu-west-1.amazonaws.com/examplecorp-terraform-modules/vpc.zip"
+  source = "s3::https://s3.amazonaws.com/my-terraform-modules/s3-module.zip"
 
   s3-bucket-name = "my-bucket-no-2"
 }
