@@ -22,3 +22,14 @@ If you want to create your own module follow these steps
 
 - Upload the ZIP file to your S3 bucket
 - Copy the URL of the Module ZIP file and use it as a source of your Modules 
+
+Execute the following commands to run the example
+
+```
+$ terraform get
+$ terraform init
+$ terraform plan
+$ terraform apply
+$ terraform destroy
+
+```
