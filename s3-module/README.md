@@ -10,9 +10,9 @@ This module is creating a simple private S3 bucket in your account
 
 ### Instructions:
 
-** To use this module follow these steps ** 
+**To use this module follow these steps 
 
-** Upload the provided s3-module.zip to your AWS account **
+**Upload the provided s3-module.zip to your AWS account
 
 If you want to create your own module follow these steps 
 
